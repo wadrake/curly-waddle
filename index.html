@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Six Flags Over Georgia - Thrill Rides</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap');
+
+    body {
+      margin: 0;
+      background: #fff8f0;
+      font-family: 'Open Sans', sans-serif;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(90deg, #e10600 0%, #0046b8 100%);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-family: 'Fredoka One', cursive;
+      font-size: 3rem;
+      letter-spacing: 3px;
+      text-shadow: 2px 2px 5px #660000;
+      box-shadow: 0 5px 15px rgba(225, 6, 0, 0.6);
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .ride-card {
+      background: linear-gradient(135deg, #ffefba 0%, #ffffff 100%);
+      border: 4px solid #e10600;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      padding: 25px 30px;
+      box-shadow: 0 8px 20px rgba(224, 6, 0, 0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .ride-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(224, 6, 0, 0.45);
+    }
+
+    .ride-title {
+      font-family: 'Fredoka One', cursive;
+      color: #0046b8;
+      font-size: 2.3rem;
+      margin-bottom: 12px;
+      text-shadow: 1px 1px 3px #aaa;
+    }
+
+    .ride-meta {
+      font-weight: 700;
+      color: #b22222;
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+
+    .ride-description {
+      font-size: 1.15rem;
+      line-height: 1.5;
+      color: #333;
+      margin-bottom: 18px;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+      margin-top: 20px;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    footer {
+      background: #0046b8;
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1rem;
+      text-align: center;
+      padding: 20px 10px;
+      box-shadow: inset 0 3px 8px rgba(0,0,0,0.4);
+      margin-top: 60px;
+    }
+
+    .accent-circle {
+      position: fixed;
+      border-radius: 50%;
+      opacity: 0.1;
+      z-index: -1;
+    }
+
+    .circle1 {
+      width: 180px;
+      height: 180px;
+      background: #e10600;
+      top: 30px;
+      left: -80px;
+    }
+
+    .circle2 {
+      width: 130px;
+      height: 130px;
+      background: #0046b8;
+      bottom: 50px;
+      right: -50px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        font-size: 2rem;
+        padding: 30px 10px;
+      }
+
+      .ride-title {
+        font-size: 1.6rem;
+      }
+
+      .ride-meta,
+      .ride-description {
+        font-size: 1rem;
+      }
+
+      main {
+        padding: 0 15px;
+      }
+
+      .ride-card {
+        padding: 20px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Thrill Rides at Six Flags Over Georgia</header>
+
+  <main>
+    <section class="ride-card">
+      <h2 class="ride-title">Acrophobia</h2>
+      <div class="ride-meta">Height: 200 ft | Drop: 161 ft | Speed: 50 mph</div>
+      <p class="ride-description">
+        Acrophobia is the world’s first floorless, tilting stand-up drop tower. Riders are lifted 20 stories high before tilting forward and dropping at 50 mph. A must for thrill-seekers!
+      </p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/DHcCpf3kERk" title="Acrophobia Ride Video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="ride-card">
+      <h2 class="ride-title">Goliath</h2>
+      <div class="ride-meta">Height: 200 ft | Speed: 70 mph | Track Length: 4,480 ft</div>
+      <p class="ride-description">
+        This hyper coaster offers massive drops, intense airtime hills, and high-speed turns. It's one of the tallest and fastest rides in the Southeast.
+      </p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/K6pQr6g-Lgc?si=ANNvt7sgjRztYiw3" title="Goliath Ride Video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="ride-card">
+      <h2 class="ride-title">Batman: The Ride</h2>
+      <div class="ride-meta">Type: Inverted Coaster | Speed: 50 mph</div>
+      <p class="ride-description">
+        Feel like the Dark Knight as you zoom through twists, loops, and zero-g rolls while suspended from an overhead track.
+      </p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/5XhNCcvEi1w?si=mys6Zyyo3bM1gC05" title="Batman: The Ride Video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="ride-card">
+      <h2 class="ride-title">THE RIDDLER Mind Bender</h2>
+      <div class="ride-meta">Type: Steel Looper | Speed: 50 mph</div>
+      <p class="ride-description">
+        A classic looping coaster that delivers smooth turns, double loops, and riverside views. Recently refurbished for a new generation of fans.
+      </p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/FwWGkBPn38U?si=6cGpoV9Q6hP156v1" title="Mind Bender Ride Video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="ride-card">
+      <h2 class="ride-title">Dare Devil Dive</h2>
+      <div class="ride-meta">Drop Angle: 95 degrees | Type: Euro-Fighter</div>
+      <p class="ride-description">
+        This ride features a vertical lift followed by a beyond-vertical drop and tight inversions, all packed into a compact track layout.
+      </p>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/JY6d6HN1O7w?si=gYFlJBy_d44bvglf" title="Dare Devil Dive Ride Video" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="ride-card">
+  <h2 class="ride-title">Blue Hawk</h2>
+  <div class="ride-meta">Height: 122 ft | Speed: 52 mph | Inversions: 5</div>
+  <p class="ride-description">
+    Originally opened as Ninja, Blue Hawk is a smooth, steel twister coaster with stunning views over a lake.
+    After major renovations in 2016, the ride now features soft vest restraints and a revamped track.
+    It includes 5 inversions such as a butterfly, reverse sidewinder, and double corkscrew.
+  </p>
+  <div class="video-wrapper">
+  <iframe
+    src="https://www.youtube.com/embed/2j1UMkwj2v8?si=a8pZyIoceQ7BpiYR" 
+    title="Blue Hawk front seat on-ride 5K POV @60fps Six Flags Over Georgia" 
+    allowfullscreen>
+  </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">Georgia Gold Rusher</h2>
+  <div class="ride-meta">Height: 144 ft | Speed: 60 mph | Track Length: 590 ft</div>
+  <p class="ride-description">
+    Experience the thrill of the all-new Georgia Gold Rusher, a groundbreaking coaster featuring free-spinning gondolas on a U-shaped track. Inspired by Georgia's 19th-century gold rush, this ride launches you up to 144 feet at speeds reaching 60 mph, delivering a unique adventure with every ride.
+  </p>
+  <div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/7JKa9UN5IIs?si=AFwxY16EsidetJ1w" 
+    title="Georgia Gold Rusher POV - Six Flags Over Georgia" 
+    allowfullscreen>
+  </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">Georgia Scorcher</h2>
+  <div class="ride-meta">Height: 107 ft | Speed: 54 mph | Inversions: 2</div>
+  <p class="ride-description">
+    Georgia Scorcher is a steel stand-up roller coaster located at Six Flags Over Georgia in Austell, Georgia. Manufactured by Bolliger & Mabillard, it opened on May 8, 1999, and was the last stand-up coaster installation built for almost 24 years until 2023. The ride features a 107-foot lift hill, a 101-foot drop, and reaches speeds up to 54 mph. Riders experience two inversions: an 81-foot vertical loop and a corkscrew. The coaster's layout includes a unique treble clef-shaped element and a ground-level 270-degree helix. In 2019, Georgia Scorcher was repainted with a cherry red track and dark gray supports.
+  </p>
+  <div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/kz3B9M8R4Cw" 
+    title="Georgia Scorcher Front Row POV - Six Flags Over Georgia" 
+    allowfullscreen>
+  </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">JUSTICE LEAGUE: Battle for Metropolis</h2>
+  <div class="ride-meta">Type: Interactive 4D Dark Ride | Duration: ~3:45 min</div>
+  <p class="ride-description">
+    Join the Justice League Reserve Team in a thrilling mission to save Metropolis! This cutting-edge, fully immersive dark ride combines motion-based vehicles, 3D screens, animatronics, and special effects. Armed with an EMP blaster, you'll battle alongside Superman, Batman, and Wonder Woman against Lex Luthor and The Joker in an epic fight to rescue the captured heroes and restore peace to the city.
+  </p>
+  <div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/FpsVJ01aFX0" 
+    title="JUSTICE LEAGUE: Battle for Metropolis POV - Six Flags Over Georgia" 
+    allowfullscreen>
+  </iframe>
+  </div>
+
+  <section class="ride-card">
+  <h2 class="ride-title">Pandemonium</h2>
+  <div class="ride-meta">Height: 147 ft | Speed: 70 mph | Capacity: 40 riders</div>
+  <p class="ride-description">
+    Pandemonium is a colossal pendulum ride located in the Screampunk District of Six Flags Over Georgia. Manufactured by Zamperla, this Giant Discovery model swings riders up to 147 feet in the air while rotating counterclockwise, reaching speeds of 70 mph. Opened on May 24, 2019, Pandemonium offers an exhilarating experience of weightlessness and high-flying thrills, making it one of the park's most intense attractions.
+  </p>
+  <div class="video-wrapper">
+  <iframe 
+    src="https://www.youtube.com/embed/366eRrUDEfk?si=SAD0sQ_JWqnEdb1h" 
+    title="Pandemonium 4K off-ride @60fps Six Flags Over Georgia" 
+    allowfullscreen>
+  </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">Twisted Cyclone</h2>
+  <div class="ride-meta">Height: 100 ft | Speed: 50 mph | Inversions: 3</div>
+  <p class="ride-description">
+    Twisted Cyclone is a hybrid roller coaster located at Six Flags Over Georgia, combining a classic wooden structure with a modern steel track. Designed by Rocky Mountain Construction (RMC), the ride features a 100-foot drop, speeds of up to 50 mph, and three thrilling inversions. Since its debut on May 25, 2018, Twisted Cyclone has become a fan-favorite for its smooth ride, airtime moments, and unique overbanked turns that offer an exhilarating and modern take on a historic coaster.
+  </p>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/_5Rj3b-eL_Q?si=VysCpO0lkixlPwK3" 
+      title="Twisted Cyclone Front Row 4K POV - Six Flags Over Georgia" 
+      allowfullscreen 
+      aria-label="Watch a front-row POV video of Twisted Cyclone at Six Flags Over Georgia">
+    </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">SkyScreamer</h2>
+  <div class="ride-meta">Height: 242 ft | Speed: 40 mph | Ride Type: Swing Tower</div>
+  <p class="ride-description">
+    SkyScreamer is a towering swing ride located at Six Flags Over Georgia, offering breathtaking panoramic views from 242 feet in the air. Manufactured by Funtime, this swing tower ride lifts riders high above the park before spinning them at speeds up to 40 mph in open-air seats. Since its opening in 2013, SkyScreamer has become a staple thrill attraction for guests seeking both excitement and a bird’s-eye view of the park’s surroundings.
+  </p>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/10z0xU7xU2Q?si=QSLexr-mTtfVMuLu" 
+      title="SkyScreamer Off-Ride HD Six Flags Over Georgia" 
+      allowfullscreen 
+      aria-label="Watch an off-ride video of SkyScreamer at Six Flags Over Georgia">
+    </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">Superman: Ultimate Flight</h2>
+  <div class="ride-meta">Height: 106 ft | Speed: 60 mph | Inversions: 2</div>
+  <p class="ride-description">
+    Superman: Ultimate Flight is a thrilling flying roller coaster at Six Flags Over Georgia, designed by Bolliger & Mabillard. This coaster simulates the sensation of flight, positioning riders face-down as they soar through high-speed drops, sharp turns, and the signature pretzel loop. Reaching a height of 106 feet and speeds of 60 mph, Superman: Ultimate Flight delivers a heroic experience that combines grace and adrenaline, capturing the essence of Superman’s iconic aerial maneuvers.
+  </p>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/Tl4cMXTqB5c?si=_Itu5vm75BOpjWw5" 
+      title="Superman: Ultimate Flight Front Row 4K POV - Six Flags Over Georgia" 
+      allowfullscreen 
+      aria-label="Watch a front-row POV video of Superman: Ultimate Flight at Six Flags Over Georgia">
+    </iframe>
+  </div>
+</section>
+
+<section class="ride-card">
+  <h2 class="ride-title">The Great American Scream Machine</h2>
+  <div class="ride-meta">Height: 105 ft | Speed: 57 mph | Inversions: 0</div>
+  <p class="ride-description">
+    The Great American Scream Machine is a classic wooden roller coaster at Six Flags Over Georgia, known for its traditional out-and-back layout and intense airtime hills. Opened on March 31, 1973, it was once the tallest and fastest wooden coaster in the world. With a height of 105 feet and a top speed of 57 mph, this ride offers a nostalgic thrill with powerful drops and rattling turns that pay homage to the golden age of wooden coasters.
+  </p>
+  <div class="video-wrapper">
+    <iframe 
+      src="https://www.youtube.com/embed/7fWwFOqjVeg?si=61L3uV5V0N5WpDAA" 
+      title="The Great American Scream Machine Front Row POV - Six Flags Over Georgia" 
+      allowfullscreen 
+      aria-label="Watch a front-row POV video of The Great American Scream Machine at Six Flags Over Georgia">
+    </iframe>
+  </div>
+</section>
+
+
+
+
+
+</section>
+
+
+
+
+  </main>
+
+  <footer>
+    &copy; 2025 Six Flags Thrill Guide. Not affiliated with Six Flags Inc.
+  </footer>
+
+  <div class="accent-circle circle1"></div>
+  <div class="accent-circle circle2"></div>
+</body>
+</html>
